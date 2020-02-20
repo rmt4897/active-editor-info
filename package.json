@@ -17,6 +17,6 @@
   },
   "deserializers": {
     "active-editor-info/ActiveEditorInfoView": "deserializeActiveEditorInfoView"
-  },
+  }
 
 }
