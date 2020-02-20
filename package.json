@@ -1,8 +1,5 @@
 {
   "name": "active-editor-info",
-  "deserializers": {
-    "active-editor-info/ActiveEditorInfoView": "deserializeActiveEditorInfoView"
-  },
   "main": "./lib/active-editor-info",
   "version": "0.0.0",
   "description": "A short description of your package",
@@ -17,6 +14,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-  }
-  
+  },
+  "deserializers": {
+    "active-editor-info/ActiveEditorInfoView": "deserializeActiveEditorInfoView"
+  },
+
 }
